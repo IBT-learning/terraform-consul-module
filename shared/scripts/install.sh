@@ -1,6 +1,4 @@
-#!/usr/bin/bash
-set -e
-
+#!/bin/bash
 echo "Installing dependencies..."
 if [ -x "$(command -v apt-get)" ]; then
   sudo su -s /bin/bash -c 'sleep 30 && apt-get update && apt-get install unzip' root
