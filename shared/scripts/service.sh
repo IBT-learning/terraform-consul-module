@@ -1,5 +1,4 @@
-#!/usr/bin/bash
-set -e
+#!/bin/bash
 
 echo "Starting Consul..."
 if [ -x "$(command -v systemctl)" ]; then
